@@ -1,1 +1,247 @@
 
+// function falsyOrTruthy(elem1, elem2) {
+//     return (!elem1 ? elem1 : elem2)
+// }
+
+// console.log(falsyOrTruthy(10, 5))
+
+// function arrLength (arr) {
+//     return arr.length
+// }
+
+// console.log(arrLength([0, 1, 2, 3]))
+
+// function arrLength (arr) {
+//     return arr.length - 1
+// }
+
+// console.log(arrLength([0, 1, 2, 3]))
+
+// function arrSum (arr) {
+//     let sum = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         sum = sum + arr[i]
+//     }
+//     return sum
+// }
+
+// console.log(arrSum([1, 2, 3, 4]))
+
+// function progressiveSum (num) {
+//     let sum = 0
+//     for (let i = 1; i <= num; i++) {
+//     sum = sum + i}
+// return sum
+// }
+
+// console.log(progressiveSum(10))
+
+// function calcTime (seconds) {
+//     let timerMinutes = Math.floor (seconds / 60)
+//     let timerSeconds = seconds % 60
+
+//  if (timerMinutes.toString().length === 1) {
+//     timerMinutes = '0' + timerMinutes
+//  }
+//  if (timerSeconds.toString().length === 1) {
+//     timerSeconds = timerSeconds + '0'
+//  }
+//     return timerMinutes + ':' + timerSeconds
+// }
+
+// console.log(calcTime(500))
+
+// function getMax (largest) {
+//     let max = largest[0]
+// for (let i = 1; i < largest.length; i++) {
+//     if (largest[i] > max) {
+//         max = largest[i]
+//     }
+// }
+// return max
+// }
+
+// console.log(getMax([100, 200, 300]))
+
+// function reverseString (element) {
+//     let reversedString = ''
+// for (let i = 0; i < element.length; i++) {
+//     reversedString = element[i] + reversedString
+// }
+// return reversedString
+// }
+
+// console.log(reverseString('abc'))
+
+// function reverseString (str) {
+//     return str.split ('') .reverse ('') .join ('')
+// }
+
+// console.log(reverseString('abc'))
+
+// function convertToZeros(arr) {
+//   let newArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     newArr[i] = 0;
+//   }
+//   return newArr;
+// }
+
+// console.log(convertToZeros([1, 2, 3, 4]));
+
+// function convertToZeros (arr) {
+//     return new Array(arr.length).fill(0)
+// }
+
+// console.log(convertToZeros([1, 2, 3, 4, 2, 2, 2]))
+
+// function convertToZeros (arr) {
+// return arr.map(elem => 0)
+// }
+
+// console.log(convertToZeros([1, 2, 3, 4]))
+
+// function removeApples (arr) {
+//     let noApples = []
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] !== 'Apple') {
+//             noApples.push(arr[i])
+//         }
+//     }
+//     return noApples
+// }
+
+// console.log(removeApples(['Banana', 'Apple', 'Pear', 'Grapes']))
+
+// function noApples (arr) {
+//     return arr.filter(elem => elem !== 'Apple')
+// }
+
+// console.log(noApples(['Banana', 'Apple', 'Pear', 'Grapes']))
+
+// function filterOutFalsy(arr) {
+//   let noFalsy = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (!!arr[i] === true) {
+//       noFalsy.push(arr[i]);
+//     }
+//   }
+//   return noFalsy
+// }
+
+// console.log(filterOutFalsy(['1', 0, '0', null]))
+
+// function filterOutFalsy (arr) {
+//     return arr.filter(elem => !!elem === true)
+// }
+
+// console.log(filterOutFalsy([1, 2, '', 0, NaN, 'wfds']))
+
+// function convertToBoolean (arr) {
+//     return arr.map(elem => !!elem)
+// }
+
+// console.log(convertToBoolean([1, 2, 0, '']))
+
+// function filterOutFalsy (elem1, elem2) {
+// return (!elem1 ? elem1 : elem2)
+// }
+
+// console.log(filterOutFalsy(true, 'dog'))
+
+// function arrLength(arr) {
+// return arr.length
+// }
+
+// console.log(arrLength([1, 2, 3, 4, 2, 2]));
+
+// function arrLength (arr) {
+//     return arr[0]
+// }
+
+// console.log(arrLength([35, 2, 3, 4, 5]))
+
+// function arrSum (arr) {
+//     let sum = 0
+// for (let i = 0; i < arr.length; i++) {
+//     sum = arr[i] + sum
+// }
+// return sum
+// }
+
+// console.log(arrSum([1, 2, 3, 4]))
+
+// function progressiveSum(num) {
+//   let sum = 0;
+//   for (let i = 1; i <= num; i++) {
+//       sum = i + sum 
+// }
+//   return sum
+// }
+
+// console.log(progressiveSum(3));
+
+
+// function calcTime (secs) {
+// let timerMinutes = Math.floor (secs / 60)
+// let timerSeconds = secs % 60 
+// if (timerMinutes.toString().length === 1) {
+//     timerMinutes = '0' + timerMinutes
+// }
+// if (timerSeconds.toString().length === 1) {
+//     timerSeconds = '0' + timerSeconds 
+// }
+// return timerMinutes + ':' + timerSeconds
+// }
+
+// console.log(calcTime(66))
+
+
+// function getMax (arr) {
+//     let max = arr[0]
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//     max = arr[i]
+// }
+// }
+// return max
+// }
+
+// console.log(getMax([1, 12, 3, 4]))
+
+
+
+// function reverseString (str) {
+
+// return (str.split('').reverse('').join(''))
+// }
+
+// console.log(reverseString('nadim'))
+
+
+// function convertToZeros (arr) {
+// return arr.map(elem => 0)
+// }
+
+// console.log(convertToZeros([1, 2, 3, 'df']))
+
+
+// function removeApples (arr) {
+// return (arr.filter(elem => elem !== 'Apples'))
+// }
+
+// console.log(removeApples(['Bananas', 'Apples']))
+
+// function filterOutFalsy (arr) {
+// return (arr.filter(elem => !!elem === true))
+// }
+
+// console.log(filterOutFalsy([1, 2, 0, '']))
+
+
+
+// function convertToBoolean (arr) {
+// return (arr.map (elem => !!elem))
+// }
+
+// console.log(convertToBoolean([1, 2, 3, 0, '']))
